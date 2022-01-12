@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background: #2ecc71;
+}
+
+#aboutus {
+  background: #AEB6BF;
+  /* padding-top: 15px;
+  padding-bottom: 15px; */
+  padding: 15px;
+  justify-content: center;
+}
+
+#aboutus img {
+  width: 300px;
+  height: 300px;
+}
+
+#aboutus p {
+  text-align: justify;
+  padding: 15px;
+  max-width: 900px;
+  margin: auto;
+}
+
+#partners{
+    margin-top: 5px;
+    background: #AEB6BF;
+    padding: 15px;
+}
+
+#partners img{
+    width: 100%;
+}
