@@ -1,16 +1,27 @@
 body {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
+  background: #beaff8;
+
 }
 
+:root {
+  --default-padding: 15px;
+}
+
+.default-padding{
+  padding: var(--default-padding);
+}
 .navbar {
-  background: #2ecc71;
+  background: #8867ff;
 }
 
+.logo {
+  width: 64px;
+  height: 64px;
+  margin-left:15px;
+}
 #aboutus {
-  background: #AEB6BF;
-  /* padding-top: 15px;
-  padding-bottom: 15px; */
-  padding: 15px;
+  padding: var(--default-padding);
   justify-content: center;
 }
 
@@ -21,17 +32,37 @@ body {
 
 #aboutus p {
   text-align: justify;
-  padding: 15px;
+  padding: var(--default-padding);
   max-width: 900px;
   margin: auto;
 }
 
-#partners{
-    margin-top: 5px;
-    background: #AEB6BF;
-    padding: 15px;
+#partners {
+  padding: var(--default-padding);
 }
 
-#partners img{
-    width: 100%;
+#partners img {
+  width: 100%;
+  padding: var(--default-padding);
+
+}
+
+#services {
+  padding: var(--default-padding);
+}
+
+#services img {
+  padding: var(--default-padding);
+}
+
+#services p {
+  text-align: justify;
+  padding: var(--default-padding);
+  max-width: 900px;
+  margin: auto;
+}
+
+.bg-footer {
+  background: #8867ff;
+  padding: var(--default-padding);
 }
