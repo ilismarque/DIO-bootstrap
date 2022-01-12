@@ -15,11 +15,7 @@ body {
   background: #8867ff;
 }
 
-.logo {
-  width: 64px;
-  height: 64px;
-  margin-left:15px;
-}
+
 #aboutus {
   padding: var(--default-padding);
   justify-content: center;
